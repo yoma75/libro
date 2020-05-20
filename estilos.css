@@ -1,0 +1,44 @@
+.navbar {
+    box-shadow: 0px 9px 8px -7px rgba(241, 236, 236, 0.938);    
+}
+
+/* Color texto de los items navbar */
+.navbar .nav-item .nav-link {
+    color: #fff;
+}
+
+/* Imagen de fondo */
+.main-header {
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    min-height: 500px;
+}
+
+/* Color sobre la imagen para escurecerla */
+.background-overlay {
+    background-color: rgba(48, 51, 107,.3);
+    min-height: 550px;
+}
+
+.card {
+    border: none !important;
+}
+
+.team {
+    background-color: rgb(123, 58, 184);
+}
+
+.card-body img {
+    width: 84%;
+    height: 165px;
+}
+
+
+@media (min-width: 576px) {
+    .main-header img {
+        margin-top: 33px;
+        padding-left: 60px;        
+    }
+}
+
+

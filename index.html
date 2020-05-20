@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Landing Page</title>
+
+	<!-- Agregar logo a la pestaña -->
+  	<link rel="shortcut icon" type="text/css" href="img/pestana.png" />
+
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!--Iconos Fontawesome 5-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <!--Hoja de estilos-->
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+
+</head>
+<body>    
+    <!-- Navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="logo libro" style="width:25%;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contactos</a>
+                    </li>                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cabecera -->
+    <header class="main-header">
+        <div class="background-overlay py-5"> <!--coloca un color de fondo sobre el primer fondo img-->
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6 text-center text-white my-auto">
+                        <h1>Desarrolla tu creatividad al leer un libro</h1>
+                        <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eaque distinctio reprehenderit, natus dignissimos amet rem eligendi eveniet explicabo quaerat quasi, quidem consequatur vitae aspernatur optio porro.</p>
+                        <a href="#" class="btn btn-outline-light btn-lg mt-3 font-weight-bold">Leer mas ...</a>
+                    </div>
+                    <div class="col-md-6" style="padding-left:93px;">
+                        <img src="img/libro.jpg" alt="libro" title="El libro del español correcto" class="img-fluid d-none d-sm-block">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mensajeria -->
+    <section class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <input type="text" class="form-control form-control-lg mb-3" placeholder="Ingrese su nombre:">
+                </div>
+                <div class="col-md-4">
+                    <input type="email" class="form-control form-control-lg mb-3" placeholder="Ingrese su email:">
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-success btn-lg btn-block">Suscribete</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Caracteristicas -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card text-center border-success bg-primary text-white">
+                        <div class="card-body">
+                            <h3>Feature One</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, impedit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center border-success">
+                        <div class="card-body">
+                            <h3>Feature Two</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, impedit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center border-success">
+                        <div class="card-body">
+                            <h3>Feature Three</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, impedit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center border-success bg-primary text-white">
+                        <div class="card-body">
+                            <h3>Feature Four</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, impedit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Porque debemos leer -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="text-center m-3">
+                    <h3>Porque debemos leer ..?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam enim, beatae consectetur ducimus eius unde, officia labore reiciendis, voluptas doloremque explicabo harum suscipit adipisci nostrum itaque magnam sit? Rem, deleniti. sit amet consectetur, adipisicing elit. Quam enim, beatae consectetur ducimus eius unde, officia labore reiciendis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Acordeon -->
+    <!-- Al agregar otra pregunta se debe cambiar el data-target="#collapsefour" y id="collapsefour" y asi sucesivamente el numero de pregunta five, six.....N-->
+    <section class="container text-center p-5">
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header bg-dark" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-outline-light" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                       Porque desarrollas tu creatividad al leer ?
+                        </button>
+                    </h2>
+                </div>
+              
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-outline-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Aumenta tu lexico de palabras al hablar
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header bg-dark" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-outline-light collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Mejora tu ortografia un 90%
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipo de trabajo -->
+    <section class="team text-center">
+        <div class="container p-5">
+            <h1 class="text-white">Nuestros escritores</h1>
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio aliquid dicta atque nobis quisquam iure ipsa minima impedit! Rem consequuntur sed nostrum magni!</p>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <img src="img/foto1.png" alt="foto 1" title="Luis Rondon" class="img-fluid rounded-circle">
+                            <h3>Luis Rondon</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, error.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-3">
+                                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></i></a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--Final card-->
+                </div> <!--Final col-lg-3-->
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <img src="img/foto2.jpg" alt="foto 1" title="Andrea Smith" class="img-fluid rounded-circle">
+                            <h3>Ana Smith</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, error.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-3">
+                                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></i></a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--Final card-->
+                </div> <!--Final col-lg-3-->
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <img src="img/foto3.jpg" alt="foto 1" title="Nancy Suarez" class="img-fluid rounded-circle">
+                            <h3>Nancy Suarez</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, error.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-3">
+                                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></i></a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--Final card-->
+                </div> <!--Final col-lg-3-->
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/foto4.jpg" alt="foto 1" title="Octavio Zamora" class="img-fluid rounded-circle">
+                            <h3>Oscar Zamora</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, error.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-3">
+                                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></i></a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                </div>
+                                <div class="p-3">
+                                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--Final card-->
+                </div> <!--Final col-lg-3-->
+            </div> <!--Final row-->
+        </div> <!--Final container team-->
+    </section>
+
+    <!-- formulario -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <h3>Contacto</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                    <form action="">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <i class="fas fa-user-tie fa-2x input-group-text"></i>
+                            </div>
+                            <input type="text" class="form-control form-control-lg" placeholder="Nombre">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <i class="fas fa-envelope fa-2x input-group-text"></i>
+                            </div>
+                            <input type="email" class="form-control form-control-lg" placeholder="Email">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <i class="fas fa-pencil-alt fa-2x input-group-text"></i>
+                            </div>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" class="form-control"></textarea>
+                        </div>
+                        <button class="btn btn-danger btn-block btn-lg">Enviar mensaje</button>                 
+                    </form>
+                </div>
+                <div class="col-lg-3 align-self-center">
+                    <img src="img/logo.png" alt="libro" class="img-fluid" style="width:100%;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid p-3 bg-dark mb-2">
+            <h4 class="text-center text-white">Web Developer</h4>
+            <h4 class="text-center text-white">FREDY COLORADO, - Octubre 26 / 2019 - </h4>
+        </div>
+    </footer>
+
+	 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
